@@ -1,0 +1,52 @@
+body, html{
+	line-height: 1;
+	font-weight: 200;
+	font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif;
+}
+#app .border-1px{
+	position: relative;
+}
+#app .border-1px::after{
+	content: '';
+	display: block;
+	height: 1px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(7, 17, 27, 0.1);
+	-webkit-transform: scaleY(0.5);
+	transform: scaleY(0.5);
+}
+
+.clearfix{
+	display: inline-block;
+}
+.clearfix:after{
+	display: block;
+	content: ' ';
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.icon-0{
+	background: url(../img/decrease_1@2x.png) no-repeat;
+	background-size: contain;
+}
+.icon-1{
+	background: url(../img/discount_1@2x.png) no-repeat;
+	background-size: contain;
+}
+.icon-2{
+	background: url(../img/special_1@2x.png) no-repeat;
+	background-size: contain;
+}
+.icon-3{
+	background: url(../img/invoice_1@2x.png) no-repeat;
+	background-size: contain;
+}
+.icon-4{
+	background: url(../img/guarantee_1@2x.png) no-repeat;
+	background-size: contain;
+}
